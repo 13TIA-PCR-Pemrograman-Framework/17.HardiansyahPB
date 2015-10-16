@@ -27,7 +27,15 @@
                 Age:
                 <spring:bind path="age">
                     <input type="text" name="${status.expression}" value="${status.value}">
-                </spring:bind>                            
+                </spring:bind> 
+                Nomor HP:
+                <spring:bind path="hp">
+                    <input type="text" name="${status.expression}" value="${status.value}">
+                </spring:bind> 
+                Alamat:
+                <spring:bind path="addr">
+                    <input type="text" name="${status.expression}" value="${status.value}">
+                </spring:bind> 
                 <input type="submit" value="OK">
             </form>
         </spring:nestedPath>

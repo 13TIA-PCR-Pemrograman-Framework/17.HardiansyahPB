@@ -6,7 +6,7 @@ package service;
  */
 public class HelloService {
 
-    public String sayHello(String name, String age) {
-        return "Hello " + name + "! Your age is " + age;
+    public String sayHello(String name, String age, String hp, String addr) {
+        return "Hello " + name + "\n Your age is " + age+"\n Alamat "+addr+"\nNomor"+hp;
     }
 }
